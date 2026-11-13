@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-12",
+  "local_policy_tests_passed": 15,
+  "platform_fixture_checks_passed": 4,
+  "platform_automatic_review_check": "passed, exactly one requested approval",
+  "platform_invalid_input_check": "passed, zero-quantity insert rejected",
+  "platform_immutable_payload_check": "passed, attempted update rejected and original retained",
+  "portfolio_case_count": 4,
+  "matched_cases": 1,
+  "held_cases": 3,
+  "held_exposure_usd": 4100,
+  "additional_automation_test_case": "TASK0020271, excluded from portfolio total",
+  "github_project_files_uploaded": true,
+  "dataset": "synthetic",
+  "payment_execution": false,
+  "production_ready": false
+}

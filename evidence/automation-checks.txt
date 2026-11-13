@@ -1,0 +1,3 @@
+- text: "*** Script: PASS AUTOMATIC REVIEW | TASK0020271 | HOLD | exactly one requested approval"
+- text: "*** Script: PASS INVALID INPUT | zero quantity rejected before database insert"
+- text: "*** Script: PASS CORE TOTALS | four portfolio cases | USD 4100.00 held synthetic exposure"

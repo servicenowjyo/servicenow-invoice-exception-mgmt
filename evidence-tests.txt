@@ -1,0 +1,16 @@
+PASS exact match has no held amount
+PASS one cent price difference holds entire invoice
+PASS duplicate with price mismatch counted once
+PASS missing PO
+PASS receipt boundary equal is accepted
+PASS one unit above receipt held
+PASS over ordered flagged
+PASS zero quantity invalid
+PASS fractional cents invalid
+PASS negative received quantity held
+PASS different supplier held
+PASS unsupported FX excluded from USD sum
+PASS second invoice against PO needs manual cumulative review
+PASS numeric string rejected rather than coerced
+PASS platform integer overflow rejected
+15 tests passed; local Node policy tests only.

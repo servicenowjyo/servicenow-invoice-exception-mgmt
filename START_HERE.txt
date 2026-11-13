@@ -1,0 +1,12 @@
+ServiceNow finance project
+
+Open README.md for results and STEP_BY_STEP.md for the tutorial.
+Run: node tests/policy.test.js
+Run: node run-demo.js
+
+15 local policy tests passed. Actual ServiceNow checks passed for four fixtures,
+automatic review creation, invalid-input rejection and immutable submitted input.
+Four demonstration cases: one matched, three held; $4100 synthetic held exposure.
+Five actual screenshot files are under evidence/screenshots/.
+
+Reference books are listed in SOURCES.md (not redistributed).

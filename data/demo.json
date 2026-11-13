@@ -1,0 +1,78 @@
+[
+  {
+    "case": "Matched invoice",
+    "invoice": {
+      "supplier": "SYNTH-S001",
+      "invoice": "INV-001",
+      "qty": 10,
+      "unit_cents": 10000,
+      "currency": "USD"
+    },
+    "po": {
+      "supplier": "SYNTH-S001",
+      "qty": 10,
+      "received": 10,
+      "unit_cents": 10000,
+      "currency": "USD"
+    },
+    "duplicate": false,
+    "prior": false
+  },
+  {
+    "case": "Price mismatch",
+    "invoice": {
+      "supplier": "SYNTH-S002",
+      "invoice": "INV-002",
+      "qty": 10,
+      "unit_cents": 11000,
+      "currency": "USD"
+    },
+    "po": {
+      "supplier": "SYNTH-S002",
+      "qty": 10,
+      "received": 10,
+      "unit_cents": 10000,
+      "currency": "USD"
+    },
+    "duplicate": false,
+    "prior": false
+  },
+  {
+    "case": "Duplicate invoice",
+    "invoice": {
+      "supplier": "SYNTH-S001",
+      "invoice": "INV-001",
+      "qty": 10,
+      "unit_cents": 10000,
+      "currency": "USD"
+    },
+    "po": {
+      "supplier": "SYNTH-S001",
+      "qty": 10,
+      "received": 10,
+      "unit_cents": 10000,
+      "currency": "USD"
+    },
+    "duplicate": true,
+    "prior": true
+  },
+  {
+    "case": "Receipt shortfall",
+    "invoice": {
+      "supplier": "SYNTH-S003",
+      "invoice": "INV-003",
+      "qty": 10,
+      "unit_cents": 20000,
+      "currency": "USD"
+    },
+    "po": {
+      "supplier": "SYNTH-S003",
+      "qty": 10,
+      "received": 8,
+      "unit_cents": 20000,
+      "currency": "USD"
+    },
+    "duplicate": false,
+    "prior": false
+  }
+]

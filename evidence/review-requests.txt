@@ -1,0 +1,4 @@
+- text: "*** Script: REVIEW REQUESTED | TASK0020268 | [FINDEMO] Price mismatch"
+- text: "*** Script: REVIEW REQUESTED | TASK0020270 | [FINDEMO] Receipt shortfall"
+- text: "*** Script: REVIEW REQUESTED | TASK0020269 | [FINDEMO] Duplicate invoice"
+- text: "*** Script: Cases with requested demo review: 3. No payment authorized."

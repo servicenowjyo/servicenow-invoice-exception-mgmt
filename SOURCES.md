@@ -1,0 +1,12 @@
+# Source and book register
+
+Retrieved November 12, 2026. Third-party PDFs are local reading material only and excluded from GitHub.
+
+- OpenStax, Principles of Finance, full official free PDF: https://assets.openstax.org/oscms-prodcms/media/documents/principles-finance_-_WEB.pdf — downloaded and parsed, 629 pages. Use working-capital and cash-management discussion as business background. The workflow policies and thresholds here are original demo assumptions, not claims that this book prescribes them.
+- OpenStax, Principles of Accounting, Volume 1: Financial Accounting: https://openstax.org/details/books/principles-financial-accounting — official free textbook and digital-PDF edition identified; full PDF not downloaded in this run. Relevant topic: internal controls. Retrieved book page states CC BY-NC-SA 4.0; follow the specific edition's license.
+- OpenStax, Principles of Accounting, Volume 2: Managerial Accounting: https://openstax.org/details/books/principles-managerial-accounting — free textbook identified, not downloaded.
+- Tim Woodruff, authorized free Development Handbook excerpts: https://www.timothywoodruff.com/handbook-exports — downloaded Business Rules (5 pages), Server Debugging (7 pages), Update Sets (8 pages). These are excerpts, not a free full copy of the handbook. Direct PDFs are on the author's page. Do not redistribute them with the project.
+- Existing university-library copy of Learning ServiceNow, Second Edition: C:/nvidia notes/books/Servicenow/Learning_ServiceNow_Second_Edition_Complete.pdf. Prior chat confirmed library access; no redistribution rights inferred. Historical concepts require checking against the live release.
+- ServiceNow Flow Designer: https://www.servicenow.com/docs/r/application-development/flow-designer.html — official page retrieved; Workflow Studio/Flow Designer labels depend on release.
+- ServiceNow Business Rules: https://www.servicenow.com/docs/r/xanadu/application-development/business-rules-classic/c_BusinessRules.html — official reference for before rules. Use workflow tooling for orchestration, synchronous validation for saving a record.
+- ServiceNow official source documentation for GlideRecord: https://github.com/servicenow/servicenowdocs/blob/47ad405f75bb64224aa78a21e0c144763863e17f/markdown/api-reference/server-api-reference/c_GlideRecordAPI.md — before-rule abort semantics checked through developer search; platform release testing remains necessary.

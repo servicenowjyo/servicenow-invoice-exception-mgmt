@@ -1,0 +1,38 @@
+{
+  "environment": "LOCAL NODE SIMULATION — not ServiceNow execution",
+  "rows": [
+    {
+      "case": "Matched invoice",
+      "status": "MATCHED",
+      "reasons": [],
+      "hold_cents": 0
+    },
+    {
+      "case": "Price mismatch",
+      "status": "HOLD",
+      "reasons": [
+        "PRICE_MISMATCH"
+      ],
+      "hold_cents": 110000
+    },
+    {
+      "case": "Duplicate invoice",
+      "status": "HOLD",
+      "reasons": [
+        "DUPLICATE",
+        "SPLIT_BILLING_REVIEW"
+      ],
+      "hold_cents": 100000
+    },
+    {
+      "case": "Receipt shortfall",
+      "status": "HOLD",
+      "reasons": [
+        "RECEIPT_SHORTFALL"
+      ],
+      "hold_cents": 200000
+    }
+  ],
+  "usd_held_cents": 410000,
+  "interpretation": "Synthetic invoice exposure on hold, not realized savings. No payments executed."
+}
